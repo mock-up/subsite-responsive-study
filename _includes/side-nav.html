@@ -1,0 +1,20 @@
+
+<div class="side-nav">
+  <h3>
+    Site Navigation
+    <span class="hidden-sm hidden-md hidden-lg nav-toggle">
+      <a data-toggle="collapse" href="#show-hide-navigation" aria-expanded="true" aria-controls="show-hide-navigation">Show/Hide Navigation</a>&nbsp;<i class="fa fa-sort"></i>
+    </span>
+  </h3>
+
+  <div class="sidebar-module hidden-xs">
+    {% include side-nav-copy.html %}
+  </div><!-- /#show-hide-navigation -->
+
+  <div class="hidden-sm hidden-md hidden-lg">
+    <div class="collapse sidebar-module hidden-md hidden-lg" id="show-hide-navigation">
+      {% include side-nav-copy-sm.html %}
+    </div><!-- /#show-hide-navigation -->
+  </div><!-- /.hidden from sm, md, and lg -->
+
+</div><!-- /.side-nav -->

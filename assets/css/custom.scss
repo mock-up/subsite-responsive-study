@@ -1,0 +1,145 @@
+---
+---
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* colors per the WASHCO web guidelines (page 5)
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/*greyscales*/
+/*links*/
+/*primary palette*/
+/*secondary palette*/
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* fonts
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+@import url(http://fonts.googleapis.com/css?family=Lora);
+@import url(http://fonts.googleapis.com/css?family=Fjalla+One);
+@import url(http://fonts.googleapis.com/css?family=Inconsolata);
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* css resets
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+* { margin: 0; padding: 0; }
+
+html, body { height: 100%; }
+
+body { font-family: "Lora", Arial, Helvetica, sans-serif; margin-top:50px; background-color: #dbd6c7; }
+
+p, ul, ol { font-size: 16px; font-family: "Lora", Arial, Helvetica, sans-serif; line-height: 28px; }
+
+h1, h2, h3, h4, h5, h6 { font-family: "Fjalla One", Arial, Helvetica, sans-serif;  }
+
+code { font-size: 16px; font-family: "Inconsolata", Courier, monospace; background-color: #bebebe; color: #262626; padding: 4px; border-radius: 0px; }
+
+a { color: #9c5221; }
+
+a:hover { color: #9c5221; }
+
+a:visited { color: #9c5221; }
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* Bootstrap overrides
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.navbar-default { background-color: #354d57; border: none; border-color: none; }
+
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: #354d57;
+  background-color: #ddd;
+}
+
+.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+  max-height: initial;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  color: #354d57;
+  background-color: #fff;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav {
+    margin-left: -15px;
+  }
+}
+
+.form-control {
+  border-radius: 0px;
+}
+
+.well {
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: none;
+  border-radius: 0px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.dropdown-menu {
+  border-radius: 0px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+@media (max-width: 768px) {
+  .navbar-default .navbar-collapse {
+    border-top: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  .navbar-form {
+    margin-left: 0px;
+    margin-right: 0px;
+    border: 0px;
+    border-top: 0px;
+    border-bottom: 0px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  .form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+  }
+
+  .navbar-default .navbar-brand {
+    color: #fff;
+  }
+
+  a.navbar-brand, a:visited.navbar-brand {
+    color: #fff;
+  }
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* Custom css
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.main-copy{ padding-top: 25px; background-color: #fff; }
+
+.side-nav { padding: 12px; background-color: #dbd6c7; }
+
+@media (max-width: 768px) {
+  .side-nav { padding: 2px 12px 2px 12px; }
+}
+
+.post { border-top: 1px solid #354d57; padding-top:20px; padding-bottom: 24px; }
+
+.sidebar-module ul.list-unstyled {  font-size: 14px; line-height: 20px; margin-bottom: 18px; }
+
+.footer { }
+
+.footer-block { padding-top: 36px; background-color: #4e6f7e; padding-bottom: 48px; color: #fff; }
+
+.footer a, .footer a:hover, .footer a:visited { color: #fff; text-decoration: underline; }
+
+.options-drop { font-size: 14px; color: #354d57; }
+
+.nav-toggle { text-align: right; float: right; font-size: 14px; padding-top: 4px; }

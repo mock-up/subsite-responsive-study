@@ -1,0 +1,114 @@
+---
+layout: default
+active: feedback
+page_title: Feedback Page
+---
+
+<section class="copy-section">
+  <div class="container pre-post-padding">
+    <h1>Reapportionment Maps</h1>
+    <div class="row">
+      <div class="col-sm-3">
+        <div class="row">
+          <div class="col-md-12">
+            <a href="#" class="thumbnail" data-toggle="modal" data-target="#map-detail">
+              <img src="http://placehold.it/300x200/aaa/ddd/&text=Map+Thumbnail">
+              <p class="text-center map-title">First Map</p>
+            </a>
+          </div><!-- /.col -->
+          <div class="col-md-12">
+            <a href="#" class="thumbnail" data-toggle="modal" data-target="#map-detail">
+              <img src="http://placehold.it/300x200/aaa/ddd/&text=Map+Thumbnail">
+              <p class="text-center map-title">Second Map</p>
+            </a>
+          </div>
+          <div class="col-md-12">
+            <a href="#" class="thumbnail" data-toggle="modal" data-target="#map-detail">
+              <img src="http://placehold.it/300x200/aaa/ddd/&text=Map+Thumbnail">
+              <p class="text-center map-title">Third Map</p>
+            </a>
+          </div>
+          <div class="col-md-12">
+            <a href="#" class="thumbnail" data-toggle="modal" data-target="#map-detail">
+              <img src="http://placehold.it/300x200/aaa/ddd/&text=Map+Thumbnail">
+              <p class="text-center map-title">Fourth Map</p>
+            </a>
+          </div>
+        </div><!-- /.row -->
+      </div><!-- /.col -->
+      <div class="col-sm-9">
+        <div class="panel panel-default">
+          <div class="panel-heading"><h3>Feedback</h3></div>
+          <div class="panel-body">
+            <form>
+              <ol class="feedback-instructions">
+                <li>Click on each map thumbnail to see details of that area.</li>
+                <li>Fill out the feedback form below.  Make sure to fill out all the fields.</li>
+                <li>Click submit!</li>
+              </ol>
+              <div class="form-group">
+                <label for="full-email-field">Your email address (optional)</label>
+                <input type="text" class="form-control" id="full-email-field" placeholder="email@domain.com">
+              </div><!-- /.form-group -->
+              <div class="form-group">
+                <label for="full-name-field">What commissioner district do you live in? (<a href="https://www.oregonlegislature.gov/FindYourLegislator/leg-districts.html" target="_blank">click here to lookup your district</a>&nbsp;<i class="fa fa-external-link"></i>)</label>
+                <select class="form-control">
+                  <option>Please select a district ...</option>
+                  <option>District # 1</option>
+                  <option>District # 2</option>
+                  <option>District # 3</option>
+                  <option>District # 4</option>
+                  <option>District # 5</option>
+                </select>
+              </div><!-- /.form-group -->
+              <div class="form-group">
+                <label for="full-name-field">Your preferred map option?</label>
+                <select class="form-control">
+                  <option>Please select a map...</option>
+                  <option>Map # 1</option>
+                  <option>Map # 2</option>
+                  <option>Map # 3</option>
+                  <option>Map # 4</option>
+                </select>
+              </div><!-- /.form-group -->
+              <div class="form-group">
+                <label for="commentField">Comments (optional)</label>
+                <textarea class="form-control" rows="12" placeholder="We appreciate your feedback."></textarea>
+              </div><!-- /.form-group -->
+
+              <div class="form-group pull-right">
+                <a href="/complete" class="btn btn-default">
+                  <i class="fa fa-check-circle-o"></i>&nbsp;Submit Feedback
+                </a>
+              </div><!-- /.form-group -->
+            </form>
+          </div><!-- /.panel-body -->
+        </div><!-- /.panel -->
+
+      <div class="row nav-button">
+        <a href="/options" class="btn btn-default btn-lg btn-block"><i class="fa fa-backward"></i>&nbsp;PREVIOUS</a>
+      </div><!-- /.row -->
+      </div><!-- /.col -->
+    </div><!-- /.row -->
+  </div><!-- /.container -->
+
+  <!-- Modal -->
+  <div class="modal fade" id="map-detail" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <h4 class="modal-title" id="myModalLabel">Map Title</h4>
+        </div><!-- /.modal-header -->
+
+        <div class="modal-body">
+
+<iframe style="zoom:0.60" width="90%" height="760" frameborder="0" src="http://washco.maps.arcgis.com/apps/Embed/index.html?webmap=cb3bc388d45c4e4b8c57da408413763a&amp;extent=-123.7839,45.1184,-122.1785,45.9008&amp;zoom=true&amp;scale=true&amp;search=true&amp;searchextent=true&amp;legend=true&amp;theme=light"></iframe>
+        </div><!-- /.modal-body -->
+
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+</section><!-- /.header-section -->
